@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Throuple of Vibes</title>
+  <meta name="description" content="Concert highlights, live show videos, and photo drops — California reggae, alt rock, emo, country, and everything in between." />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Throuple of Vibes" />
+  <meta property="og:description" content="Concert highlights, live show videos, and photo drops — California reggae, alt rock, emo, country, and everything in between." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/social-card.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar" data-elevate>
+    <div class="container topbar__inner">
+      <a class="brand" href="#home" aria-label="Throuple of Vibes home">
+        <img class="brand__logo" src="assets/logo.png" alt="Throuple of Vibes logo" />
+        <div class="brand__text">
+          <div class="brand__name">Throuple of Vibes</div>
+          <div class="brand__tag">concerts • clips • chaos (good)</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link" href="#videos">Videos</a>
+        <a class="nav__link" href="#photos">Photos</a>
+        <a class="nav__link" href="#shows">Shows</a>
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__btn" href="#submit">Submit a show</a>
+      </nav>
+
+      <button class="hamburger" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile" id="mobileMenu" hidden>
+      <div class="container mobile__inner">
+        <a href="#videos" class="mobile__link">Videos</a>
+        <a href="#photos" class="mobile__link">Photos</a>
+        <a href="#shows" class="mobile__link">Shows</a>
+        <a href="#about" class="mobile__link">About</a>
+        <a href="#submit" class="mobile__btn">Submit a show</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <div class="pill">🌙 beach-stage energy • neon lights • live music love</div>
+          <h1>We film the night.<br />You relive the vibe.</h1>
+          <p>
+            A podcast + media hub for concert videos and photo drops — heavy on California reggae (Stick Figure vibes),
+            but we also hit alt rock, emo, country, and whatever the universe throws at the setlist.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#videos">Watch the latest</a>
+            <a class="btn" href="#photos">Browse photos</a>
+          </div>
+
+          <div class="socialRow" aria-label="Social links">
+            <!-- Replace these with your real links -->
+            <a class="social" href="#" title="YouTube" aria-label="YouTube link">YouTube</a>
+            <a class="social" href="#" title="Instagram" aria-label="Instagram link">Instagram</a>
+            <a class="social" href="#" title="TikTok" aria-label="TikTok link">TikTok</a>
+            <a class="social" href="#" title="Spotify" aria-label="Spotify link">Spotify</a>
+          </div>
+
+          <div class="genres">
+            <span>California Reggae</span>
+            <span>Alt Rock</span>
+            <span>Emo</span>
+            <span>Country</span>
+            <span>Indie</span>
+            <span>Festivals</span>
+          </div>
+        </div>
+
+        <aside class="hero__card" aria-label="Highlights">
+          <div class="statGrid">
+            <div class="stat">
+              <div class="stat__big" id="stat1">New</div>
+              <div class="stat__small">clips dropping</div>
+            </div>
+            <div class="stat">
+              <div class="stat__big" id="stat2">Weekly</div>
+              <div class="stat__small">photo sets</div>
+            </div>
+            <div class="stat">
+              <div class="stat__big" id="stat3">Live</div>
+              <div class="stat__small">show recaps</div>
+            </div>
+            <div class="stat">
+              <div class="stat__big" id="stat4">Vibes</div>
+              <div class="stat__small">always</div>
+            </div>
+          </div>
+
+          <div class="mini">
+            <div class="mini__title">Featured artist (swap me)</div>
+            <div class="mini__text">Stick Figure • Slightly Stoopid • Iration • The Movement…</div>
+          </div>
+
+          <div class="mini">
+            <div class="mini__title">Featured venue (swap me)</div>
+            <div class="mini__text">The Greek • Red Rocks • House of Blues • local beach stages 🌊</div>
+          </div>
+
+          <div class="note">
+            Tip: when you’re ready, I can wire “Submit a show” to a Google Form so it actually emails you.
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section class="section" id="videos">
+      <div class="container">
+        <header class="section__head">
+          <h2>Latest videos</h2>
+          <p>Drop in YouTube links and this section becomes your highlight reel.</p>
+        </header>
+
+        <div class="grid3" id="videoGrid">
+          <!-- Cards are injected from scripts.js -->
+        </div>
+
+        <div class="section__foot">
+          <a class="btn btn--primary" href="#" aria-label="Go to YouTube channel">Go to YouTube</a>
+          <a class="btn" href="#submit">Submit a concert</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section class="section section--alt" id="photos">
+      <div class="container">
+        <header class="section__head">
+          <h2>Photo drops</h2>
+          <p>Tap a photo to open it big. Add your own shots in <span class="mono">scripts.js</span>.</p>
+        </header>
+
+        <div class="masonry" id="photoGrid" aria-label="Photo gallery">
+          <!-- injected -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOWS -->
+    <section class="section" id="shows">
+      <div class="container">
+        <header class="section__head">
+          <h2>Shows we’re watching</h2>
+          <p>A simple “where we’ll be” board. Edit the list anytime.</p>
+        </header>
+
+        <div class="cards" id="showGrid">
+          <!-- injected -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--alt" id="about">
+      <div class="container about">
+        <div class="about__copy">
+          <h2>About Throuple of Vibes</h2>
+          <p>
+            This is where the throuple puts the <em>music</em> first. We show up, we film, we take too many photos,
+            and we post the best parts — the singalong, the guitar face, the crowd glow, the “wait, this is my new favorite band” moment.
+          </p>
+          <p>
+            If you’re an artist, venue, promoter, or label and you want coverage: hit the submit form below and we’ll connect.
+          </p>
+
+          <div class="about__badges">
+            <div class="badge">🎙️ Podcast</div>
+            <div class="badge">🎥 Live clips</div>
+            <div class="badge">📸 Photos</div>
+            <div class="badge">🌴 Cali reggae core</div>
+            <div class="badge">🖤 emo side quest</div>
+          </div>
+        </div>
+
+        <div class="about__panel">
+          <div class="panelTitle">Quick setup checklist</div>
+          <ol class="check">
+            <li>Replace your social links in the hero (YouTube/IG/TikTok/Spotify).</li>
+            <li>Add your YouTube video URLs in <span class="mono">scripts.js</span>.</li>
+            <li>Swap the show list with your real upcoming concerts.</li>
+            <li>When ready: I’ll connect the submit form to Google Forms.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBMIT -->
+    <section class="section" id="submit">
+      <div class="container">
+        <header class="section__head">
+          <h2>Submit a concert / band tip</h2>
+          <p>This demo form saves locally. Tell me where you want submissions to go and I’ll hook it up.</p>
+        </header>
+
+        <form class="form" id="tipForm">
+          <div class="formRow">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" placeholder="Jake (or Anonymous Legend)" />
+            </div>
+            <div class="field">
+              <label for="contact">Contact (optional)</label>
+              <input id="contact" name="contact" placeholder="email or @handle" />
+            </div>
+          </div>
+
+          <div class="formRow">
+            <div class="field">
+              <label for="artist">Band / Artist</label>
+              <input id="artist" name="artist" placeholder="Who should we check out?" required />
+            </div>
+            <div class="field">
+              <label for="venue">Venue / City</label>
+              <input id="venue" name="venue" placeholder="Where is it happening?" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="details">Details</label>
+            <textarea id="details" name="details" placeholder="Date, ticket link, why it’s a must-see, anything spicy (musically)"></textarea>
+          </div>
+
+          <div class="formActions">
+            <button class="btn btn--primary" type="submit">Send tip</button>
+            <div class="formStatus" id="formStatus" role="status" aria-live="polite"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <div class="footer__brand">Throuple of Vibes</div>
+          <div class="footer__small">© <span id="year"></span> • Built for good music & better people.</div>
+        </div>
+        <div class="footer__right">
+          <a href="#home">Back to top ↑</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close image">✕</button>
+    <img class="lightbox__img" id="lightboxImg" alt="" />
+    <div class="lightbox__cap" id="lightboxCap"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
